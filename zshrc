@@ -1,4 +1,4 @@
-alias dev="mosh -6 steven@167.172.127.64"
+alias dev="mosh stev@165.232.51.207"
 alias ..="cd .."
 alias ...="cd ../.."
 # alias ctags if installed using homebrew on macos
