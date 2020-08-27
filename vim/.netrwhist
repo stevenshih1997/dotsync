@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Users/stevenshih/.git'
+let g:netrw_dirhist_9='/Users/stevenshih/Personal/test/backtester-beta/backtester'
+let g:netrw_dirhist_8='/Users/stevenshih/Personal/codeforces'
+let g:netrw_dirhist_7='/Users/stevenshih/Personal/cpsc490/assn1'
+let g:netrw_dirhist_6='/Users/stevenshih/Personal/cpsc490'
+let g:netrw_dirhist_5='/Users/stevenshih/Personal'
+let g:netrw_dirhist_4='/Users/stevenshih/Personal/codeforces'
+let g:netrw_dirhist_3='/Users/stevenshih/Personal'
+let g:netrw_dirhist_2='/Volumes/School/2019W2/CPEN421/H3'
+let g:netrw_dirhist_1='/Volumes/School/2019W2/CPEN421/T6'

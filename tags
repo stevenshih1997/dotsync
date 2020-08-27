@@ -1,0 +1,642 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3f4203d/
+<C-e>	vimrc	/^nmap <C-e> :call ToggleNetrw()<CR>$/;"	m
+<Plug>(-fzf-complete-trigger)	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^inoremap <silent> <Plug>(-fzf-complete-trigger) <c-o>:call <sid>complete_trigger()<cr>$/;"	m
+<S-Tab>	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^  imap <S-Tab> <plug>vim_completes_me_backward$/;"	m
+<Tab>	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^  imap <Tab>   <plug>vim_completes_me_forward$/;"	m
+<cr>	vim/autoload/plug.vim	/^      nmap <buffer> <cr> <plug>(plug-preview)$/;"	m
+<plug>(-fzf-/)	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^nnoremap <plug>(-fzf-\/) \/$/;"	m
+<plug>(-fzf-:)	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^nnoremap <plug>(-fzf-:) :$/;"	m
+<plug>(-fzf-vim-do)	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^nnoremap <plug>(-fzf-vim-do) :execute g:__fzf_command<cr>$/;"	m
+<plug>(fzf-complete-buffer-line)	vim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-buffer-line) fzf#vim#complete#buffer_line()$/;"	m
+<plug>(fzf-complete-file)	vim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-file)      fzf#vim#complete#path("find . -path '*\/\\.*' -/;"	m
+<plug>(fzf-complete-file)	vim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-file)      fzf#vim#complete#path('dir \/s\/b\/a:-d')$/;"	m
+<plug>(fzf-complete-file-ag)	vim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-file-ag)     fzf#vim#complete#path('ag -l -g ""')$/;"	m
+<plug>(fzf-complete-line)	vim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-line)        fzf#vim#complete#line()$/;"	m
+<plug>(fzf-complete-path)	vim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-path)      fzf#vim#complete#path("find . -path '*\/\\.*' -/;"	m
+<plug>(fzf-complete-path)	vim/plugged/fzf.vim/plugin/fzf.vim	/^  inoremap <expr> <plug>(fzf-complete-path)      fzf#vim#complete#path('dir \/s\/b')$/;"	m
+<plug>(fzf-complete-word)	vim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <expr> <plug>(fzf-complete-word)        fzf#vim#complete#word()$/;"	m
+<plug>(fzf-maps-i)	vim/plugged/fzf.vim/plugin/fzf.vim	/^inoremap <silent> <plug>(fzf-maps-i) <c-o>:call fzf#vim#maps('i', 0)<cr>$/;"	m
+<plug>(fzf-maps-n)	vim/plugged/fzf.vim/plugin/fzf.vim	/^nnoremap <silent> <plug>(fzf-maps-n) :<c-u>call fzf#vim#maps('n', 0)<cr>$/;"	m
+<plug>(fzf-maps-o)	vim/plugged/fzf.vim/plugin/fzf.vim	/^onoremap <silent> <plug>(fzf-maps-o) <c-c>:<c-u>call fzf#vim#maps('o', 0)<cr>$/;"	m
+<plug>(fzf-maps-x)	vim/plugged/fzf.vim/plugin/fzf.vim	/^xnoremap <silent> <plug>(fzf-maps-x) :<c-u>call fzf#vim#maps('x', 0)<cr>$/;"	m
+<plug>(plug-preview)	vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> <plug>(plug-preview) :silent! call <SID>preview_commit()<cr>$/;"	m
+<plug>vim_completes_me_backward	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^inoremap <expr> <plug>vim_completes_me_backward VimCompletesMe#vim_completes_me(1)$/;"	m
+<plug>vim_completes_me_forward	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^inoremap <expr> <plug>vim_completes_me_forward  VimCompletesMe#vim_completes_me(0)$/;"	m
+Advanced customization	vim/plugged/fzf.vim/README.md	/^### Advanced customization$/;"	S
+BUILD_INVERTED_INDEX	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set BUILD_INVERTED_INDEX=1$/;"	v
+BUILD_INVERTED_INDEX	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set BUILD_INVERTED_INDEX=0$/;"	v
+Backups	README.md	/^Backups$/;"	s
+Before submitting	vim/plugged/fzf.vim/.github/ISSUE_TEMPLATE.md	/^Before submitting$/;"	c
+CSCOPE_ARGS	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set CSCOPE_ARGS=%CSCOPE_ARGS% -q$/;"	v
+CSCOPE_ARGS	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set CSCOPE_ARGS=$/;"	v
+CSCOPE_ARGS	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set CSCOPE_ARGS=%CSCOPE_ARGS% -i %DB_FILE%.files$/;"	v
+CSCOPE_EXE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set CSCOPE_EXE=%~2$/;"	v
+CSCOPE_EXE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set CSCOPE_EXE=cscope$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        set CTAGS_ARGS=%CTAGS_ARGS% "%PROJECT_ROOT%"$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        set CTAGS_ARGS=%CTAGS_ARGS% --append "%UPDATED_SOURCE%"$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        set CTAGS_ARGS=%CTAGS_ARGS% -L %TAGS_FILE%.files$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% %~2$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% --exclude=%2$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% --options=%2$/;"	v
+CTAGS_ARGS	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set CTAGS_ARGS=$/;"	v
+CTAGS_EXE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_EXE=%~2$/;"	v
+CTAGS_EXE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set CTAGS_EXE=ctags$/;"	v
+CleanUp	vim/plugged/vim-gutentags/plat/unix/update_scopedb.sh	/^CleanUp() {$/;"	f
+Command-local options	vim/plugged/fzf.vim/README.md	/^### Command-local options$/;"	S
+Commands	vim/plugged/fzf.vim/README.md	/^Commands$/;"	s
+Completion helper	vim/plugged/fzf.vim/README.md	/^### Completion helper$/;"	S
+Configuration	README.md	/^Configuration$/;"	s
+Configuring Git Flow	CONTRIB.md	/^#### Configuring Git Flow$/;"	t
+Contribute	CONTRIB.md	/^Contribute$/;"	s
+Contributing	vim/plugged/vim-gutentags/CONTRIBUTING.md	/^# Contributing$/;"	c
+Custom Dotfiles	README.md	/^Custom Dotfiles$/;"	s
+Custom statusline	vim/plugged/fzf.vim/README.md	/^### Custom statusline$/;"	S
+Customization	vim/plugged/fzf.vim/README.md	/^Customization$/;"	s
+D	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> D  :PlugDiff<cr>$/;"	m
+DB_FILE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set DB_FILE=%~2$/;"	v
+DB_FILE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set DB_FILE=cscope.out$/;"	v
+DoneParseArgs	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^:DoneParseArgs$/;"	l
+DoneParseArgs	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^:DoneParseArgs$/;"	l
+EOF	bin/dotsync	/^  cat << EOF$/;"	h
+Example: Advanced ripgrep integration	vim/plugged/fzf.vim/README.md	/^#### Example: Advanced ripgrep integration$/;"	t
+Example: Customizing `Files` command	vim/plugged/fzf.vim/README.md	/^#### Example: Customizing `Files` command$/;"	t
+Example: `Rg` command with preview window	vim/plugged/fzf.vim/README.md	/^#### Example: `Rg` command with preview window$/;"	t
+Example: `git grep` wrapper	vim/plugged/fzf.vim/README.md	/^#### Example: `git grep` wrapper$/;"	t
+FILESIZE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^for \/F %%F in ("%DB_FILE%.files") do set FILESIZE=%%~zF$/;"	v
+FILESIZE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set FILESIZE=0$/;"	v
+FILE_LIST_CMD	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set FILE_LIST_CMD=%~2$/;"	v
+FILE_LIST_CMD	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set FILE_LIST_CMD=$/;"	v
+FILE_LIST_CMD	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set FILE_LIST_CMD=%~2$/;"	v
+FILE_LIST_CMD	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set FILE_LIST_CMD=$/;"	v
+FILE_LIST_CMD_IS_ABSOLUTE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set FILE_LIST_CMD_IS_ABSOLUTE=1$/;"	v
+FILE_LIST_CMD_IS_ABSOLUTE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set FILE_LIST_CMD_IS_ABSOLUTE=0$/;"	v
+Git Flow	CONTRIB.md	/^### Git Flow$/;"	S
+Global options	vim/plugged/fzf.vim/README.md	/^### Global options$/;"	S
+Gutentags	vim/plugged/vim-gutentags/README.md	/^# Gutentags$/;"	c
+GutentagsToggleEnabled	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleEnabled :let g:gutentags_enabled=!g:gutentags_enabled$/;"	c
+GutentagsToggleFake	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleFake    :call gutentags#fake()$/;"	c
+GutentagsToggleTrace	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleTrace   :call gutentags#toggletrace()$/;"	c
+GutentagsUpdate	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    command! -buffer -bang GutentagsUpdate :call s:manual_update_tags(<bang>0)$/;"	c
+Hide statusline	vim/plugged/fzf.vim/README.md	/^### Hide statusline$/;"	S
+How?	vim/plugged/vim-gutentags/README.md	/^## How?$/;"	s
+INDEX_WHOLE_PROJECT	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        set INDEX_WHOLE_PROJECT=0$/;"	v
+INDEX_WHOLE_PROJECT	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set INDEX_WHOLE_PROJECT=1$/;"	v
+Installation	README.md	/^Installation$/;"	s
+Installation	vim/plugged/fzf.vim/README.md	/^Installation$/;"	s
+Installation	vim/plugged/vimcompletesme/README.markdown	/^## Installation$/;"	s
+L	vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> L :call <SID>status_load(line('.'))<cr>$/;"	m
+L	vim/autoload/plug.vim	/^    xnoremap <silent> <buffer> L :call <SID>status_load(line('.'))<cr>$/;"	m
+LOG_FILE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set LOG_FILE=%~2$/;"	v
+LOG_FILE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
+LOG_FILE	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^set LOG_FILE=$/;"	v
+LOG_FILE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set LOG_FILE=%~2$/;"	v
+LOG_FILE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
+LOG_FILE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set LOG_FILE=$/;"	v
+License	README.md	/^License$/;"	s
+License	vim/plugged/fzf.vim/README.md	/^License$/;"	s
+License	vim/plugged/vimcompletesme/README.markdown	/^## License$/;"	s
+LoopParseArgs	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^:LoopParseArgs$/;"	l
+LoopParseArgs	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^:LoopParseArgs$/;"	l
+Machine specific Dotfiles	README.md	/^Machine specific Dotfiles$/;"	s
+Mappings	vim/plugged/fzf.vim/README.md	/^Mappings$/;"	s
+PAUSE_BEFORE_EXIT	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set PAUSE_BEFORE_EXIT=1$/;"	v
+PAUSE_BEFORE_EXIT	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set PAUSE_BEFORE_EXIT=0$/;"	v
+POST_PROCESS_CMD	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set POST_PROCESS_CMD=%~2$/;"	v
+POST_PROCESS_CMD	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set POST_PROCESS_CMD=$/;"	v
+PROJECT_ROOT	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set PROJECT_ROOT=%~2$/;"	v
+PROJECT_ROOT	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set PROJECT_ROOT=$/;"	v
+PROJ_ROOT	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set PROJ_ROOT=%~2$/;"	v
+ParseArgs	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^:ParseArgs$/;"	l
+ParseArgs	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^:ParseArgs$/;"	l
+Plug	vim/autoload/plug.vim	/^  command! -nargs=+ -bar Plug call plug#(<args>)$/;"	c
+PlugClean	vim/autoload/plug.vim	/^  command! -nargs=0 -bar -bang PlugClean call s:clean(<bang>0)$/;"	c
+PlugDiff	vim/autoload/plug.vim	/^  command! -nargs=0 -bar PlugDiff    call s:diff()$/;"	c
+PlugInstall	vim/autoload/plug.vim	/^  command! -nargs=* -bar -bang -complete=customlist,s:names PlugInstall call s:install(<bang>0, /;"	c
+PlugLOD	vim/autoload/plug.vim	/^    augroup PlugLOD$/;"	a
+PlugSnapshot	vim/autoload/plug.vim	/^  command! -nargs=? -bar -bang -complete=file PlugSnapshot call s:snapshot(<bang>0, <f-args>)$/;"	c
+PlugStatus	vim/autoload/plug.vim	/^  command! -nargs=0 -bar PlugStatus  call s:status()$/;"	c
+PlugUpdate	vim/autoload/plug.vim	/^  command! -nargs=* -bar -bang -complete=customlist,s:names PlugUpdate  call s:update(<bang>0, [/;"	c
+PlugUpgrade	vim/autoload/plug.vim	/^  command! -nargs=0 -bar PlugUpgrade if s:upgrade() | execute 'source' s:esc(s:me) | endif$/;"	c
+Pushing	vim/plugged/vim-gutentags/CONTRIBUTING.md	/^## Pushing$/;"	s
+R	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> R  :call <SID>retry()<cr>$/;"	m
+Rationale	vim/plugged/fzf.vim/README.md	/^Rationale$/;"	s
+Reducer example	vim/plugged/fzf.vim/README.md	/^#### Reducer example$/;"	t
+Related Projects	vim/plugged/vim-gutentags/README.md	/^# Related Projects$/;"	c
+Remote Machines	README.md	/^Remote Machines$/;"	s
+Requirements	README.md	/^Requirements$/;"	s
+S	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> S  :PlugStatus<cr>$/;"	m
+ShowUsage	vim/plugged/vim-gutentags/plat/unix/update_scopedb.sh	/^ShowUsage() {$/;"	f
+ShowUsage	vim/plugged/vim-gutentags/plat/unix/update_tags.sh	/^ShowUsage() {$/;"	f
+Start Vim with a minimal configuration	vim/plugged/fzf.vim/.github/ISSUE_TEMPLATE.md	/^Start Vim with a minimal configuration$/;"	c
+Status line of terminal buffer	vim/plugged/fzf.vim/README.md	/^Status line of terminal buffer$/;"	s
+TAGS_FILE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set TAGS_FILE=%~2$/;"	v
+TAGS_FILE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set TAGS_FILE=tags$/;"	v
+Testing	vim/plugged/vim-gutentags/CONTRIBUTING.md	/^## Testing$/;"	s
+Thanks	vim/plugged/vimcompletesme/README.markdown	/^## Thanks$/;"	s
+ToggleNetrw	vimrc	/^function! ToggleNetrw()$/;"	f
+U	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> U  :call <SID>status_update()<cr>$/;"	m
+U	vim/autoload/plug.vim	/^  xnoremap <silent> <buffer> U  :call <SID>status_update()<cr>$/;"	m
+UPDATED_SOURCE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^    set UPDATED_SOURCE=%~2$/;"	v
+UPDATED_SOURCE	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^set UPDATED_SOURCE=$/;"	v
+Unlock	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^:Unlock$/;"	l
+Usage	README.md	/^Usage$/;"	s
+Usage	vim/plugged/fzf.vim/README.md	/^### Usage$/;"	S
+Usage	vim/plugged/vim-gutentags/plat/win32/update_scopedb.cmd	/^:Usage$/;"	l
+Usage	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^:Usage$/;"	l
+Using Git Flow	CONTRIB.md	/^#### Using Git Flow$/;"	t
+Using [vim-plug](https://github.com/junegunn/vim-plug)	vim/plugged/fzf.vim/README.md	/^### Using [vim-plug](https:\/\/github.com\/junegunn\/vim-plug)$/;"	S
+VCM	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^augroup VCM$/;"	a
+Vim functions	vim/plugged/fzf.vim/README.md	/^#### Vim functions$/;"	t
+VimCompletesMe	vim/plugged/vimcompletesme/README.markdown	/^# VimCompletesMe$/;"	c
+VimCompletesMe#vim_completes_me	vim/plugged/vimcompletesme/autoload/VimCompletesMe.vim	/^function! VimCompletesMe#vim_completes_me(shift_tab)$/;"	f
+What?	vim/plugged/vim-gutentags/README.md	/^## What?$/;"	s
+Why you should use fzf on Vim	vim/plugged/fzf.vim/README.md	/^Why you should use fzf on Vim$/;"	s
+Why?	vim/plugged/vim-gutentags/README.md	/^## Why?$/;"	s
+Writing	vim/plugged/vim-gutentags/CONTRIBUTING.md	/^## Writing$/;"	s
+X	vim/autoload/plug.vim	/^    nnoremap <silent> <buffer> X :call <SID>revert()<cr>$/;"	m
+[[	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> [[ :silent! call <SID>section('b')<cr>$/;"	m
+]]	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> ]] :silent! call <SID>section('')<cr>$/;"	m
+_fzf_statusline	vim/plugged/fzf.vim/plugin/fzf.vim	/^  augroup _fzf_statusline$/;"	a
+allhosts	bin/dotsync	/^allhosts()$/;"	f
+bg	tmux.conf	/^set-option -ag pane-active-border-style 'bg=#3a3a3a'$/;"	k
+bg	tmux.conf	/^set-option -g pane-active-border-style 'bg=#3a3a3a'$/;"	k
+bg	tmux.conf	/^setw -g window-active-style 'bg=#121212'$/;"	k
+bg	tmux.conf	/^setw -g window-style 'bg=#262626'$/;"	k
+checkdirs	bin/dotsync	/^checkdirs()$/;"	f
+checkin	bin/dotsync	/^checkin()$/;"	f
+checknotroot	bin/dotsync	/^checknotroot()$/;"	f
+d	vim/autoload/plug.vim	/^      nnoremap <silent> <buffer> d :set opfunc=<sid>delete_op<cr>g@$/;"	m
+d	vim/autoload/plug.vim	/^      xnoremap <silent> <buffer> d :<c-u>call <sid>delete_op(visualmode(), 1)<cr>$/;"	m
+dd	vim/autoload/plug.vim	/^      nmap     <silent> <buffer> dd d_$/;"	m
+doaction	bin/dotsync	/^doaction()$/;"	f
+dotsync	README.md	/^dotsync$/;"	c
+dotsync changelog	CHANGES.md	/^dotsync changelog$/;"	s
+filetypedetect	vim/autoload/plug.vim	/^        augroup filetypedetect$/;"	a
+fzf :heart: vim	vim/plugged/fzf.vim/README.md	/^fzf :heart: vim$/;"	c
+fzf#complete	vim/plugged/fzf.vim/plugin/fzf.vim	/^function! fzf#complete(...)$/;"	f
+fzf#vim#_lines	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#_lines(all)$/;"	f
+fzf#vim#_uniq	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#_uniq(list)$/;"	f
+fzf#vim#ag	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#ag(query, ...)$/;"	f
+fzf#vim#ag_raw	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#ag_raw(command_suffix, ...)$/;"	f
+fzf#vim#buffer_commits	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffer_commits(...)$/;"	f
+fzf#vim#buffer_lines	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffer_lines(...)$/;"	f
+fzf#vim#buffer_tags	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffer_tags(query, ...)$/;"	f
+fzf#vim#buffers	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#buffers(...)$/;"	f
+fzf#vim#colors	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#colors(...)$/;"	f
+fzf#vim#command_history	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#command_history(...)$/;"	f
+fzf#vim#commands	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#commands(...)$/;"	f
+fzf#vim#commits	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#commits(...)$/;"	f
+fzf#vim#complete	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#complete(...)$/;"	f
+fzf#vim#complete#buffer_line	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#buffer_line(...)$/;"	f
+fzf#vim#complete#line	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#line(...)$/;"	f
+fzf#vim#complete#path	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#path(command, ...)$/;"	f
+fzf#vim#complete#word	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! fzf#vim#complete#word(...)$/;"	f
+fzf#vim#files	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#files(dir, ...)$/;"	f
+fzf#vim#filetypes	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#filetypes(...)$/;"	f
+fzf#vim#gitfiles	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#gitfiles(args, ...)$/;"	f
+fzf#vim#grep	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#grep(grep_command, has_column, ...)$/;"	f
+fzf#vim#helptags	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#helptags(...)$/;"	f
+fzf#vim#history	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#history(...)$/;"	f
+fzf#vim#lines	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#lines(...)$/;"	f
+fzf#vim#locate	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#locate(query, ...)$/;"	f
+fzf#vim#maps	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#maps(mode, ...)$/;"	f
+fzf#vim#marks	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#marks(...)$/;"	f
+fzf#vim#search_history	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#search_history(...)$/;"	f
+fzf#vim#snippets	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#snippets(...)$/;"	f
+fzf#vim#tags	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#tags(query, ...)$/;"	f
+fzf#vim#windows	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#windows(...)$/;"	f
+fzf#vim#with_preview	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! fzf#vim#with_preview(...)$/;"	f
+fzf_buffers	vim/plugged/fzf.vim/plugin/fzf.vim	/^augroup fzf_buffers$/;"	a
+g:	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^            let g:[newname] = g:[key]$/;"	v
+g:NetrwIsOpen	vimrc	/^        let g:NetrwIsOpen=0$/;"	v
+g:NetrwIsOpen	vimrc	/^        let g:NetrwIsOpen=1$/;"	v
+g:NetrwIsOpen	vimrc	/^let g:NetrwIsOpen = 0$/;"	v
+g:__fzf_command	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^    let g:__fzf_command = "normal ".prefix.item."\\<cr>"$/;"	v
+g:__gutentags_vim_is_leaving	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    let g:__gutentags_vim_is_leaving = 1$/;"	v
+g:__gutentags_vim_is_leaving	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:__gutentags_vim_is_leaving = 0$/;"	v
+g:_plug_bang	vim/autoload/plug.vim	/^    let g:_plug_bang = (s:is_win && has('gui_running') ? 'silent ' : '').'!'.escape(cmd, '#!%')$/;"	v
+g:colors_name	vim/colors/smyck.vim	/^let g:colors_name = "smyck"$/;"	v
+g:fzf#vim#buffers	vim/plugged/fzf.vim/plugin/fzf.vim	/^  let g:fzf#vim#buffers = {}$/;"	v
+g:gutentags_add_ctrlp_root_markers	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_add_ctrlp_root_markers = get(g:, 'gutentags_add_ctrlp_root_markers', 1)$/;"	v
+g:gutentags_add_default_project_roots	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_add_default_project_roots = get(g:, 'gutentags_add_default_project_roots', 1)$/;"	v
+g:gutentags_auto_add_cscope	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_auto_add_cscope = 1$/;"	v
+g:gutentags_auto_add_gtags_cscope	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^    let g:gutentags_auto_add_gtags_cscope = 1$/;"	v
+g:gutentags_background_update	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_background_update = get(g:, 'gutentags_background_update', 1)$/;"	v
+g:gutentags_cache_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = ''$/;"	v
+g:gutentags_cache_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = fnamemodify(g:gutentags_cache_dir, ':p')$/;"	v
+g:gutentags_cache_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = fnamemodify(g:gutentags_cache_dir, ':s?[\/\\\\]$??')$/;"	v
+g:gutentags_cscope_build_inverted_index	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_cscope_build_inverted_index = 0$/;"	v
+g:gutentags_cscope_executable	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_cscope_executable = 'cscope'$/;"	v
+g:gutentags_ctags_auto_set_tags	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_auto_set_tags = get(g:, 'gutentags_ctags_auto_set_tags', 1)$/;"	v
+g:gutentags_ctags_check_tagfile	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_check_tagfile = get(g:, 'gutentags_ctags_check_tagfile', 0)$/;"	v
+g:gutentags_ctags_exclude	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_exclude = get(g:, 'gutentags_ctags_exclude', [])$/;"	v
+g:gutentags_ctags_exclude_wildignore	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_exclude_wildignore = get(g:, 'gutentags_ctags_exclude_wildignore', 1)$/;"	v
+g:gutentags_ctags_executable	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_executable = get(g:, 'gutentags_ctags_executable', 'ctags')$/;"	v
+g:gutentags_ctags_extra_args	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_extra_args = get(g:, 'gutentags_ctags_extra_args', [])$/;"	v
+g:gutentags_ctags_options_file	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_options_file = get(g:, 'gutentags_ctags_options_file', '.gutctags')$/;"	v
+g:gutentags_ctags_post_process_cmd	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_post_process_cmd = get(g:, 'gutentags_ctags_post_process_cmd', '')$/;"	v
+g:gutentags_ctags_tagfile	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let g:gutentags_ctags_tagfile = get(g:, 'gutentags_ctags_tagfile', 'tags')$/;"	v
+g:gutentags_debug	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_debug = get(g:, 'gutentags_debug', 0)$/;"	v
+g:gutentags_define_advanced_commands	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_define_advanced_commands = get(g:, 'gutentags_define_advanced_commands', 0)$/;"	v
+g:gutentags_enabled	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^            let g:gutentags_enabled = 0$/;"	v
+g:gutentags_enabled	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_enabled = get(g:, 'gutentags_enabled', 1)$/;"	v
+g:gutentags_exclude_filetypes	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_exclude_filetypes = get(g:, 'gutentags_exclude_filetypes', [])$/;"	v
+g:gutentags_exclude_project_root	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_exclude_project_root = get(g:, 'gutentags_exclude_project_root', ['\/usr\/local'/;"	v
+g:gutentags_fake	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^        let g:gutentags_fake = a:1$/;"	v
+g:gutentags_fake	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    let g:gutentags_fake = !g:gutentags_fake$/;"	v
+g:gutentags_fake	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_fake = get(g:, 'gutentags_fake', 0)$/;"	v
+g:gutentags_file_list_command	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_file_list_command = get(g:, 'gutentags_file_list_command', '')$/;"	v
+g:gutentags_generate_on_empty_buffer	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_empty_buffer = get(g:, 'gutentags_generate_on_empty_buffer', 0)$/;"	v
+g:gutentags_generate_on_missing	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_missing = get(g:, 'gutentags_generate_on_missing', 1)$/;"	v
+g:gutentags_generate_on_new	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_new = get(g:, 'gutentags_generate_on_new', 1)$/;"	v
+g:gutentags_generate_on_write	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_generate_on_write = get(g:, 'gutentags_generate_on_write', 1)$/;"	v
+g:gutentags_gtags_cscope_executable	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^    let g:gutentags_gtags_cscope_executable = 'gtags-cscope'$/;"	v
+g:gutentags_gtags_dbpath	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^    let g:gutentags_gtags_dbpath = ''$/;"	v
+g:gutentags_gtags_executable	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^    let g:gutentags_gtags_executable = 'gtags'$/;"	v
+g:gutentags_gtags_options_file	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^    let g:gutentags_gtags_options_file = '.gutgtags'$/;"	v
+g:gutentags_init_user_func	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_init_user_func = get(g:, 'gutentags_init_user_func', $/;"	v
+g:gutentags_modules	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_modules = get(g:, 'gutentags_modules', ['ctags'])$/;"	v
+g:gutentags_pause_after_update	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_pause_after_update = get(g:, 'gutentags_pause_after_update', 0)$/;"	v
+g:gutentags_plat_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_plat_dir = expand('<sfile>:h:h:p') . "\\\\plat\\\\win32\\\\"$/;"	v
+g:gutentags_plat_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_plat_dir = expand('<sfile>:h:h:p') . '\/plat\/unix\/'$/;"	v
+g:gutentags_project_info	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_info = get(g:, 'gutentags_project_info', [])$/;"	v
+g:gutentags_project_root	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_project_root += ['.git', '.hg', '.svn', '.bzr', '_darcs', '_FOSSIL_', '.fslc/;"	v
+g:gutentags_project_root	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_root = get(g:, 'gutentags_project_root', [])$/;"	v
+g:gutentags_project_root_finder	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_root_finder = get(g:, 'gutentags_project_root_finder', '')$/;"	v
+g:gutentags_res_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_res_dir = expand('<sfile>:h:h:p') . "\\\\res\\\\"$/;"	v
+g:gutentags_res_dir	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_res_dir = expand('<sfile>:h:h:p') . '\/res\/'$/;"	v
+g:gutentags_resolve_symlinks	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_resolve_symlinks = get(g:, 'gutentags_resolve_symlinks', 0)$/;"	v
+g:gutentags_scopefile	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_scopefile = 'cscope.out'$/;"	v
+g:gutentags_script_ext	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_script_ext = '.cmd'$/;"	v
+g:gutentags_script_ext	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_script_ext = '.sh'$/;"	v
+g:gutentags_trace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^            let g:gutentags_trace = l:prev_trace$/;"	v
+g:gutentags_trace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^        let g:gutentags_trace = 1$/;"	v
+g:gutentags_trace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^        let g:gutentags_trace = a:1$/;"	v
+g:gutentags_trace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^        let g:gutentags_trace = l:trace_backup$/;"	v
+g:gutentags_trace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    let g:gutentags_trace = !g:gutentags_trace$/;"	v
+g:gutentags_trace	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_trace = get(g:, 'gutentags_trace', 0)$/;"	v
+g:gutentags_use_jobs	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_use_jobs = get(g:, 'gutentags_use_jobs', has('job'))$/;"	v
+g:loaded_VimCompletesMe	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^let g:loaded_VimCompletesMe = 1$/;"	v
+g:loaded_gutentags	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^let g:loaded_gutentags = 1$/;"	v
+g:loaded_plug	vim/autoload/plug.vim	/^let g:loaded_plug = 1$/;"	v
+g:netrw_altv	vimrc	/^let g:netrw_altv = 1$/;"	v
+g:netrw_banner	vimrc	/^let g:netrw_banner = 0$/;"	v
+g:netrw_browse_split	vimrc	/^let g:netrw_browse_split = 4$/;"	v
+g:netrw_fastbrowse	vimrc	/^let g:netrw_fastbrowse = 0$/;"	v
+g:netrw_liststyle	vimrc	/^let g:netrw_liststyle = 3$/;"	v
+g:netrw_winsize	vimrc	/^let g:netrw_winsize = 15$/;"	v
+g:plug_home	vim/autoload/plug.vim	/^  let g:plug_home = home$/;"	v
+g:plugs	vim/autoload/plug.vim	/^    let g:plugs[name] = spec$/;"	v
+g:plugs	vim/autoload/plug.vim	/^  let g:plugs = {}$/;"	v
+g:plugs_order	vim/autoload/plug.vim	/^  let g:plugs_order = []$/;"	v
+g:plugs_order	vim/autoload/plug.vim	/^  let g:plugs_order = get(g:, 'plugs_order', keys(g:plugs))$/;"	v
+g:vcm_default_maps	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^  let g:vcm_default_maps = 1$/;"	v
+g:vcm_direction	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^  let g:vcm_direction = 'n'$/;"	v
+g:vcm_omni_pattern	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^  let g:vcm_omni_pattern = '\\k\\+\\(\\.\\|->\\|::\\)\\k*$'$/;"	v
+g:vcm_s_tab_behavior	vim/plugged/vimcompletesme/plugin/VimCompletesMe.vim	/^  let g:vcm_s_tab_behavior = 0$/;"	v
+getconfig	bin/dotsync	/^getconfig()$/;"	f
+getfiles	bin/dotsync	/^getfiles()$/;"	f
+getgitorigin	bin/dotsync	/^getgitorigin()$/;"	f
+gethosts	bin/dotsync	/^gethosts()$/;"	f
+getrealdotfile	bin/dotsync	/^getrealdotfile()$/;"	f
+gitcommit	bin/dotsync	/^gitcommit()$/;"	f
+gitpull	bin/dotsync	/^gitpull()$/;"	f
+gitpush	bin/dotsync	/^gitpush()$/;"	f
+gitremote	bin/dotsync	/^gitremote()$/;"	f
+gutentags#add_job	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#add_job(module, tags_file, data) abort$/;"	f
+gutentags#build_default_job_options	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    function! gutentags#build_default_job_options(module) abort$/;"	f
+gutentags#chdir	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#chdir(path)$/;"	f
+gutentags#cscope#generate	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#generate(proj_dir, tags_file, gen_opts) abort$/;"	f
+gutentags#cscope#init	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#init(project_root) abort$/;"	f
+gutentags#cscope#on_job_exit	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#on_job_exit(job, exit_val) abort$/;"	f
+gutentags#ctags#generate	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#generate(proj_dir, tags_file, gen_opts) abort$/;"	f
+gutentags#ctags#init	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#init(project_root) abort$/;"	f
+gutentags#ctags#on_job_exit	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#on_job_exit(job, exit_val) abort$/;"	f
+gutentags#default_get_project_root	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#default_get_project_root(path) abort$/;"	f
+gutentags#default_stderr_cb	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#default_stderr_cb(chan, msg) abort$/;"	f
+gutentags#default_stdout_cb	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#default_stdout_cb(chan, msg) abort$/;"	f
+gutentags#error	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#error(message)$/;"	f
+gutentags#fake	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#fake(...)$/;"	f
+gutentags#find_job_index_by_data	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#find_job_index_by_data(module, data) abort$/;"	f
+gutentags#find_job_index_by_tags_file	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#find_job_index_by_tags_file(module, tags_file) abort$/;"	f
+gutentags#get_cachefile	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_cachefile(root_dir, filename) abort$/;"	f
+gutentags#get_job_data	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_job_data(module, job_idx) abort$/;"	f
+gutentags#get_job_tags_file	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_job_tags_file(module, job_idx) abort$/;"	f
+gutentags#get_plat_file	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_plat_file(filename) abort$/;"	f
+gutentags#get_project_file_list_cmd	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_file_list_cmd(path) abort$/;"	f
+gutentags#get_project_info	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_info(path) abort$/;"	f
+gutentags#get_project_root	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_root(path) abort$/;"	f
+gutentags#get_res_file	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_res_file(filename) abort$/;"	f
+gutentags#gtags_cscope#generate	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#generate(proj_dir, tags_file, gen_opts) abort$/;"	f
+gutentags#gtags_cscope#init	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#init(project_root) abort$/;"	f
+gutentags#gtags_cscope#on_job_exit	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! gutentags#gtags_cscope#on_job_exit(job, exit_val) abort$/;"	f
+gutentags#inprogress	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#inprogress()$/;"	f
+gutentags#is_path_rooted	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    function! gutentags#is_path_rooted(path) abort$/;"	f
+gutentags#make_args	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    function! gutentags#make_args(cmd) abort$/;"	f
+gutentags#normalizepath	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#normalizepath(path)$/;"	f
+gutentags#on_vim_leave_pre	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#on_vim_leave_pre() abort$/;"	f
+gutentags#remove_job	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#remove_job(module, job_idx) abort$/;"	f
+gutentags#remove_job_by_data	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#remove_job_by_data(module, data) abort$/;"	f
+gutentags#rescan	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#rescan(...)$/;"	f
+gutentags#setup_gutentags	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#setup_gutentags() abort$/;"	f
+gutentags#shellslash	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#shellslash(path)$/;"	f
+gutentags#start_job	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    function! gutentags#start_job(cmd, opts) abort$/;"	f
+gutentags#statusline	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#statusline(...) abort$/;"	f
+gutentags#statusline_cb	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#statusline_cb(fmt_cb, ...) abort$/;"	f
+gutentags#stripslash	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#stripslash(path)$/;"	f
+gutentags#throw	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#throw(message)$/;"	f
+gutentags#toggletrace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#toggletrace(...)$/;"	f
+gutentags#trace	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#trace(message, ...)$/;"	f
+gutentags#validate_cmd	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#validate_cmd(cmd) abort$/;"	f
+gutentags#warning	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#warning(message)$/;"	f
+gutentags_detect	vim/plugged/vim-gutentags/plugin/gutentags.vim	/^augroup gutentags_detect$/;"	a
+init	bin/dotsync	/^init()$/;"	f
+initlocal	bin/dotsync	/^initlocal()$/;"	f
+isgitlayout	bin/dotsync	/^isgitlayout()$/;"	f
+key	tmux.conf	/^bind-key = set-window-option synchronize-panes$/;"	k
+listconfig	bin/dotsync	/^listconfig()$/;"	f
+o	vim/autoload/plug.vim	/^      nmap <buffer> o <plug>(plug-preview)$/;"	m
+options	bin/dotsync	/^options()$/;"	f
+opts.sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  function! opts.sink(lines)$/;"	f
+plug#	vim/autoload/plug.vim	/^function! plug#(repo, ...)$/;"	f
+plug#begin	vim/autoload/plug.vim	/^function! plug#begin(...)$/;"	f
+plug#end	vim/autoload/plug.vim	/^function! plug#end()$/;"	f
+plug#helptags	vim/autoload/plug.vim	/^function! plug#helptags()$/;"	f
+plug#load	vim/autoload/plug.vim	/^function! plug#load(...)$/;"	f
+plug#shellescape	vim/autoload/plug.vim	/^function! plug#shellescape(arg, ...)$/;"	f
+q	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> q  :if b:plug_preview==1<bar>pc<bar>endif<bar>bd<cr>$/;"	m
+q	vim/autoload/plug.vim	/^  nnoremap <silent> <buffer> q :q<cr>$/;"	m
+removebrokenlinks	bin/dotsync	/^removebrokenlinks()$/;"	f
+rsyncremote	bin/dotsync	/^rsyncremote()$/;"	f
+s:TYPE	vim/autoload/plug.vim	/^let s:TYPE = {$/;"	v
+s:TYPE	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:TYPE = {'dict': type({}), 'funcref': type(function('call')), 'string': type(''), 'list': t/;"	v
+s:_handleOldOptions	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:_handleOldOptions() abort$/;"	f
+s:action_for	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:action_for(key, ...)$/;"	f
+s:add_db	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^function! s:add_db(db_file) abort$/;"	f
+s:added_db_files	vim/plugged/vim-gutentags/autoload/gutentags/gtags_cscope.vim	/^let s:added_db_files = {}$/;"	v
+s:added_dbs	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:added_dbs = []$/;"	v
+s:ag_handler	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:ag_handler(lines, has_column)$/;"	f
+s:ag_to_qf	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:ag_to_qf(line, has_column)$/;"	f
+s:align_lists	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:align_lists(lists)$/;"	f
+s:align_pairs	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:align_pairs(list)$/;"	f
+s:all_files	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:all_files()$/;"	f
+s:ansi	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:ansi(str, group, default, ...)$/;"	f
+s:ansi	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:ansi = {'black': 30, 'red': 31, 'green': 32, 'yellow': 33, 'blue': 34, 'magenta': 35, 'cya/;"	v
+s:append_ul	vim/autoload/plug.vim	/^function! s:append_ul(lnum, text)$/;"	f
+s:ask	vim/autoload/plug.vim	/^function! s:ask(message, ...)$/;"	f
+s:ask_no_interrupt	vim/autoload/plug.vim	/^function! s:ask_no_interrupt(...)$/;"	f
+s:assign_name	vim/autoload/plug.vim	/^function! s:assign_name()$/;"	f
+s:assoc	vim/autoload/plug.vim	/^function! s:assoc(dict, key, val)$/;"	f
+s:bang	vim/autoload/plug.vim	/^function! s:bang(cmd, ...)$/;"	f
+s:bar	vim/autoload/plug.vim	/^function! s:bar()$/;"	f
+s:base_spec	vim/autoload/plug.vim	/^let s:base_spec = { 'branch': 'master', 'frozen': 0 }$/;"	v
+s:batchfile	vim/autoload/plug.vim	/^  function! s:batchfile(cmd)$/;"	f
+s:bin	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^    let s:bin.preview = fnamemodify(s:bin.preview, ':8')$/;"	v
+s:bin	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^    let s:bin.preview = split(system('for %A in ("'.s:bin.preview.'") do @echo %~sA'), "\\n")[0]$/;"	v
+s:bin	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  let s:bin.preview = 'bash '.escape(s:bin.preview, '\\')$/;"	v
+s:bin	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:bin = {$/;"	v
+s:bin_dir	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:bin_dir = expand('<sfile>:h:h:h').'\/bin\/'$/;"	v
+s:btags_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:btags_sink(lines)$/;"	f
+s:btags_source	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:btags_source(tag_cmds)$/;"	f
+s:buffer_line_handler	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buffer_line_handler(lines)$/;"	f
+s:buffer_lines	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buffer_lines(query)$/;"	f
+s:buflisted	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buflisted()$/;"	f
+s:buflisted_sorted	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:buflisted_sorted()$/;"	f
+s:bufopen	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:bufopen(lines)$/;"	f
+s:cache_project_root	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! s:cache_project_root(path) abort$/;"	f
+s:check_ruby	vim/autoload/plug.vim	/^function! s:check_ruby()$/;"	f
+s:checkout	vim/autoload/plug.vim	/^function! s:checkout(spec)$/;"	f
+s:chomp	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:chomp(str)$/;"	f
+s:chsh	vim/autoload/plug.vim	/^function! s:chsh(swap)$/;"	f
+s:clean	vim/autoload/plug.vim	/^function! s:clean(force)$/;"	f
+s:cmd_history_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:cmd_history_sink(lines)$/;"	f
+s:command_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:command_sink(lines)$/;"	f
+s:commits	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:commits(buffer_local, args)$/;"	f
+s:commits_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:commits_sink(lines)$/;"	f
+s:compare_git_uri	vim/autoload/plug.vim	/^function! s:compare_git_uri(a, b)$/;"	f
+s:complete_insert	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:complete_insert(lines)$/;"	f
+s:complete_trigger	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:complete_trigger()$/;"	f
+s:cpo_save	vim/autoload/plug.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cpo_save	vim/plugged/fzf.vim/plugin/fzf.vim	/^let s:cpo_save = &cpo$/;"	v
+s:csi	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:csi(color, fg)$/;"	f
+s:default_action	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:default_action = {$/;"	v
+s:define_commands	vim/autoload/plug.vim	/^function! s:define_commands()$/;"	f
+s:defs	vim/plugged/fzf.vim/plugin/fzf.vim	/^function! s:defs(commands)$/;"	f
+s:delete	vim/autoload/plug.vim	/^function! s:delete(range, force)$/;"	f
+s:delete_op	vim/autoload/plug.vim	/^function! s:delete_op(type, ...)$/;"	f
+s:did_check_exe	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:did_check_exe = 0$/;"	v
+s:diff	vim/autoload/plug.vim	/^function! s:diff()$/;"	f
+s:dirpath	vim/autoload/plug.vim	/^  function! s:dirpath(path)$/;"	f
+s:do	vim/autoload/plug.vim	/^function! s:do(pull, force, todo)$/;"	f
+s:doautocmd	vim/autoload/plug.vim	/^function! s:doautocmd(...)$/;"	f
+s:dobufread	vim/autoload/plug.vim	/^function! s:dobufread(names)$/;"	f
+s:err	vim/autoload/plug.vim	/^function! s:err(msg)$/;"	f
+s:esc	vim/autoload/plug.vim	/^function! s:esc(path)$/;"	f
+s:escape	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:escape(path)$/;"	f
+s:escrtp	vim/autoload/plug.vim	/^function! s:escrtp(path)$/;"	f
+s:eval	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:eval(dict, key, arg)$/;"	f
+s:excmds	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:excmds()$/;"	f
+s:extend	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:extend(base, extra)$/;"	f
+s:extend_opts	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:extend_opts(dict, eopts, prepend)$/;"	f
+s:extract_name	vim/autoload/plug.vim	/^function! s:extract_name(str, prefix, suffix)$/;"	f
+s:file_options	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:file_options(prefix)$/;"	f
+s:file_source	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:file_source(prefix)$/;"	f
+s:file_split_prefix	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:file_split_prefix(prefix)$/;"	f
+s:fill_quickfix	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:fill_quickfix(list, ...)$/;"	f
+s:find_name	vim/autoload/plug.vim	/^function! s:find_name(lnum)$/;"	f
+s:find_open_window	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:find_open_window(b)$/;"	f
+s:finish	vim/autoload/plug.vim	/^function! s:finish(pull)$/;"	f
+s:finish_bindings	vim/autoload/plug.vim	/^function! s:finish_bindings()$/;"	f
+s:first_line	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:first_line(lines)$/;"	f
+s:first_rtp	vim/autoload/plug.vim	/^let s:first_rtp = s:escrtp(get(s:split_rtp(), 0, ''))$/;"	v
+s:fmt_excmd	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:fmt_excmd = '   '.s:blue('%-38s', 'Statement').'%s'$/;"	v
+s:fname_prefix	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:fname_prefix(str)$/;"	f
+s:format_buffer	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_buffer(b)$/;"	f
+s:format_cmd	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_cmd(line)$/;"	f
+s:format_excmd	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_excmd(ex)$/;"	f
+s:format_git_log	vim/autoload/plug.vim	/^function! s:format_git_log(line)$/;"	f
+s:format_mark	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_mark(line)$/;"	f
+s:format_message	vim/autoload/plug.vim	/^function! s:format_message(bullet, name, message)$/;"	f
+s:format_win	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:format_win(tab, win, buf)$/;"	f
+s:function	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  function! s:function(name)$/;"	f
+s:function	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^  function! s:function(name)$/;"	f
+s:fzf	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:fzf(name, opts, extra)$/;"	f
+s:fzf_restore_colors	vim/plugged/fzf.vim/plugin/fzf.vim	/^  function! s:fzf_restore_colors()$/;"	f
+s:fzf_vim_term	vim/plugged/fzf.vim/plugin/fzf.vim	/^  function! s:fzf_vim_term()$/;"	f
+s:generate_wildignore_options	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:generate_wildignore_options() abort$/;"	f
+s:get_color	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:get_color(attr, ...)$/;"	f
+s:get_ctags_executable	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:get_ctags_executable(proj_dir) abort$/;"	f
+s:get_git_root	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:get_git_root()$/;"	f
+s:git_validate	vim/autoload/plug.vim	/^function! s:git_validate(spec, check_branch)$/;"	f
+s:git_version_requirement	vim/autoload/plug.vim	/^function! s:git_version_requirement(...)$/;"	f
+s:glob	vim/autoload/plug.vim	/^function! s:glob(from, pattern)$/;"	f
+s:glob_dir	vim/autoload/plug.vim	/^function! s:glob_dir(path)$/;"	f
+s:hash_match	vim/autoload/plug.vim	/^function! s:hash_match(a, b)$/;"	f
+s:helptag_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:helptag_sink(line)$/;"	f
+s:highlight_keys	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:highlight_keys(str)$/;"	f
+s:history	vim/plugged/fzf.vim/plugin/fzf.vim	/^function! s:history(arg, bang)$/;"	f
+s:history_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:history_sink(type, lines)$/;"	f
+s:history_source	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:history_source(type)$/;"	f
+s:infer_properties	vim/autoload/plug.vim	/^function! s:infer_properties(name, repo)$/;"	f
+s:inject_snippet	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:inject_snippet(line)$/;"	f
+s:install	vim/autoload/plug.vim	/^function! s:install(force, names)$/;"	f
+s:is_local_plug	vim/autoload/plug.vim	/^  function! s:is_local_plug(repo)$/;"	f
+s:is_managed	vim/autoload/plug.vim	/^function! s:is_managed(name)$/;"	f
+s:is_preview_window_open	vim/autoload/plug.vim	/^function! s:is_preview_window_open()$/;"	f
+s:is_updated	vim/autoload/plug.vim	/^function! s:is_updated(dir)$/;"	f
+s:is_win	vim/autoload/plug.vim	/^let s:is_win = has('win32')$/;"	v
+s:is_win	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:is_win	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:is_win	vim/plugged/fzf.vim/plugin/fzf.vim	/^let s:is_win = has('win32') || has('win64')$/;"	v
+s:job_abort	vim/autoload/plug.vim	/^function! s:job_abort()$/;"	f
+s:job_cb	vim/autoload/plug.vim	/^function! s:job_cb(fn, job, ch, data)$/;"	f
+s:job_exit_cb	vim/autoload/plug.vim	/^function! s:job_exit_cb(self, data) abort$/;"	f
+s:job_out_cb	vim/autoload/plug.vim	/^function! s:job_out_cb(self, data) abort$/;"	f
+s:jump	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:jump(t, w)$/;"	f
+s:key_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:key_sink(line)$/;"	f
+s:known_files	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^let s:known_files = []$/;"	v
+s:known_projects	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^let s:known_projects = {}$/;"	v
+s:last_non_empty_line	vim/autoload/plug.vim	/^function! s:last_non_empty_line(lines)$/;"	f
+s:last_rtp	vim/autoload/plug.vim	/^let s:last_rtp  = s:escrtp(get(s:split_rtp(), -1, ''))$/;"	v
+s:last_wildignores	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:last_wildignores = ''$/;"	v
+s:lastline	vim/autoload/plug.vim	/^function! s:lastline(msg)$/;"	f
+s:layout_keys	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:layout_keys = ['window', 'up', 'down', 'left', 'right']$/;"	v
+s:lazy	vim/autoload/plug.vim	/^function! s:lazy(plug, opt)$/;"	f
+s:line_handler	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:line_handler(lines)$/;"	f
+s:lines	vim/autoload/plug.vim	/^function! s:lines(msg)$/;"	f
+s:load_plugin	vim/autoload/plug.vim	/^function! s:load_plugin(spec)$/;"	f
+s:loaded	vim/autoload/plug.vim	/^let s:loaded = get(s:, 'loaded', {})$/;"	v
+s:loaded_names	vim/autoload/plug.vim	/^function! s:loaded_names()$/;"	f
+s:lod	vim/autoload/plug.vim	/^function! s:lod(names, types, ...)$/;"	f
+s:lod_cmd	vim/autoload/plug.vim	/^function! s:lod_cmd(cmd, bang, l1, l2, args, names)$/;"	f
+s:lod_ft	vim/autoload/plug.vim	/^function! s:lod_ft(pat, names)$/;"	f
+s:lod_map	vim/autoload/plug.vim	/^function! s:lod_map(map, names, with_prefix, prefix)$/;"	f
+s:log	vim/autoload/plug.vim	/^function! s:log(bullet, name, lines)$/;"	f
+s:log4	vim/autoload/plug.vim	/^function! s:log4(name, msg)$/;"	f
+s:logpos	vim/autoload/plug.vim	/^function! s:logpos(name)$/;"	f
+s:lpad	vim/autoload/plug.vim	/^function! s:lpad(str, len)$/;"	f
+s:mac_gui	vim/autoload/plug.vim	/^let s:mac_gui = has('gui_macvim') && has('gui_running')$/;"	v
+s:manual_update_tags	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! s:manual_update_tags(bang) abort$/;"	f
+s:mark_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:mark_sink(lines)$/;"	f
+s:me	vim/autoload/plug.vim	/^  let s:me = resolve(expand('<sfile>:p'))$/;"	v
+s:merge_opts	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:merge_opts(dict, eopts)$/;"	f
+s:names	vim/autoload/plug.vim	/^function! s:names(...)$/;"	f
+s:nbs	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:nbs = nr2char(0x2007)$/;"	v
+s:new_window	vim/autoload/plug.vim	/^function! s:new_window()$/;"	f
+s:nvim	vim/autoload/plug.vim	/^let s:nvim = has('nvim-0.2') || (has('nvim') && exists('*jobwait') && !s:is_win)$/;"	v
+s:nvim_cb	vim/autoload/plug.vim	/^function! s:nvim_cb(job_id, data, event) dict abort$/;"	f
+s:nvim_job_exit_wrapper	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    function! s:nvim_job_exit_wrapper(real_cb, job, exit_code, event_type) abort$/;"	f
+s:nvim_job_out_wrapper	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    function! s:nvim_job_out_wrapper(real_cb, job, lines, event_type) abort$/;"	f
+s:open	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:open(cmd, target)$/;"	f
+s:parse_options	vim/autoload/plug.vim	/^function! s:parse_options(arg)$/;"	f
+s:path	vim/autoload/plug.vim	/^  function! s:path(path)$/;"	f
+s:pluck	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:pluck(dict, key, default)$/;"	f
+s:plug_buf	vim/autoload/plug.vim	/^let s:plug_buf = get(s:, 'plug_buf', -1)$/;"	v
+s:plug_call	vim/autoload/plug.vim	/^  function! s:plug_call(fn, ...)$/;"	f
+s:plug_expand	vim/autoload/plug.vim	/^function! s:plug_expand(fmt)$/;"	f
+s:plug_fnamemodify	vim/autoload/plug.vim	/^function! s:plug_fnamemodify(fname, mods)$/;"	f
+s:plug_getcwd	vim/autoload/plug.vim	/^function! s:plug_getcwd()$/;"	f
+s:plug_src	vim/autoload/plug.vim	/^let s:plug_src = 'https:\/\/github.com\/junegunn\/vim-plug.git'$/;"	v
+s:plug_tab	vim/autoload/plug.vim	/^let s:plug_tab = get(s:, 'plug_tab', -1)$/;"	v
+s:plug_tempname	vim/autoload/plug.vim	/^function! s:plug_tempname()$/;"	f
+s:plug_window_exists	vim/autoload/plug.vim	/^function! s:plug_window_exists()$/;"	f
+s:prepare	vim/autoload/plug.vim	/^function! s:prepare(...)$/;"	f
+s:prepend_opts	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:prepend_opts(dict, eopts)$/;"	f
+s:preview_commit	vim/autoload/plug.vim	/^function! s:preview_commit()$/;"	f
+s:process_options_file	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^function! s:process_options_file(proj_dir, path) abort$/;"	f
+s:progress_bar	vim/autoload/plug.vim	/^function! s:progress_bar(line, bar, total)$/;"	f
+s:progress_opt	vim/autoload/plug.vim	/^function! s:progress_opt(base)$/;"	f
+s:reap	vim/autoload/plug.vim	/^function! s:reap(name)$/;"	f
+s:reduce_line	vim/plugged/fzf.vim/autoload/fzf/vim/complete.vim	/^function! s:reduce_line(lines)$/;"	f
+s:regress_bar	vim/autoload/plug.vim	/^function! s:regress_bar()$/;"	f
+s:reload_plugins	vim/autoload/plug.vim	/^function! s:reload_plugins()$/;"	f
+s:remove_layout	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:remove_layout(opts)$/;"	f
+s:remove_rtp	vim/autoload/plug.vim	/^function! s:remove_rtp()$/;"	f
+s:remove_triggers	vim/autoload/plug.vim	/^function! s:remove_triggers(name)$/;"	f
+s:reorg_rtp	vim/autoload/plug.vim	/^function! s:reorg_rtp()$/;"	f
+s:retry	vim/autoload/plug.vim	/^function! s:retry()$/;"	f
+s:revert	vim/autoload/plug.vim	/^function! s:revert()$/;"	f
+s:rm_rf	vim/autoload/plug.vim	/^function! s:rm_rf(dir)$/;"	f
+s:rtp	vim/autoload/plug.vim	/^function! s:rtp(spec)$/;"	f
+s:runner_exe	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:runner_exe = gutentags#get_plat_file('update_scopedb')$/;"	v
+s:runner_exe	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:runner_exe = gutentags#get_plat_file('update_tags')$/;"	v
+s:search_history_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:search_history_sink(lines)$/;"	f
+s:section	vim/autoload/plug.vim	/^function! s:section(flags)$/;"	f
+s:shellesc_cmd	vim/autoload/plug.vim	/^function! s:shellesc_cmd(arg, script)$/;"	f
+s:shellesc_ps1	vim/autoload/plug.vim	/^function! s:shellesc_ps1(arg)$/;"	f
+s:shellesc_sh	vim/autoload/plug.vim	/^function! s:shellesc_sh(arg)$/;"	f
+s:shortpath	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:shortpath()$/;"	f
+s:snapshot	vim/autoload/plug.vim	/^function! s:snapshot(force, ...) abort$/;"	f
+s:sort_buffers	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:sort_buffers(...)$/;"	f
+s:source	vim/autoload/plug.vim	/^function! s:source(from, ...)$/;"	f
+s:spawn	vim/autoload/plug.vim	/^function! s:spawn(name, cmd, opts)$/;"	f
+s:split_rtp	vim/autoload/plug.vim	/^function! s:split_rtp()$/;"	f
+s:status	vim/autoload/plug.vim	/^function! s:status()$/;"	f
+s:status_load	vim/autoload/plug.vim	/^function! s:status_load(lnum)$/;"	f
+s:status_update	vim/autoload/plug.vim	/^function! s:status_update() range$/;"	f
+s:strip	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:strip(str)$/;"	f
+s:switch_in	vim/autoload/plug.vim	/^function! s:switch_in()$/;"	f
+s:switch_out	vim/autoload/plug.vim	/^function! s:switch_out(...)$/;"	f
+s:syntax	vim/autoload/plug.vim	/^function! s:syntax()$/;"	f
+s:system	vim/autoload/plug.vim	/^function! s:system(cmd, ...)$/;"	f
+s:system_chomp	vim/autoload/plug.vim	/^function! s:system_chomp(...)$/;"	f
+s:tags_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:tags_sink(lines)$/;"	f
+s:tick	vim/autoload/plug.vim	/^function! s:tick()$/;"	f
+s:to_a	vim/autoload/plug.vim	/^function! s:to_a(v)$/;"	f
+s:to_s	vim/autoload/plug.vim	/^function! s:to_s(v)$/;"	f
+s:triggers	vim/autoload/plug.vim	/^let s:triggers = get(s:, 'triggers', {})$/;"	v
+s:trim	vim/autoload/plug.vim	/^function! s:trim(str)$/;"	f
+s:unix_redir	vim/plugged/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:unix_redir = (&shellredir =~# '%s') ? &shellredir : &shellredir . ' %s'$/;"	v
+s:unix_redir	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:unix_redir = (&shellredir =~# '%s') ? &shellredir : &shellredir . ' %s'$/;"	v
+s:update	vim/autoload/plug.vim	/^function! s:update(force, names)$/;"	f
+s:update_finish	vim/autoload/plug.vim	/^function! s:update_finish()$/;"	f
+s:update_impl	vim/autoload/plug.vim	/^function! s:update_impl(pull, force, args) abort$/;"	f
+s:update_in_progress	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    let s:update_in_progress[module] = []$/;"	v
+s:update_in_progress	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^let s:update_in_progress = {}$/;"	v
+s:update_python	vim/autoload/plug.vim	/^function! s:update_python()$/;"	f
+s:update_queue	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^    let s:update_queue[module] = []$/;"	v
+s:update_queue	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^let s:update_queue = {}$/;"	v
+s:update_ruby	vim/autoload/plug.vim	/^function! s:update_ruby()$/;"	f
+s:update_tags	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! s:update_tags(bufno, module, write_mode, queue_mode) abort$/;"	f
+s:update_vim	vim/autoload/plug.vim	/^function! s:update_vim()$/;"	f
+s:upgrade	vim/autoload/plug.vim	/^function! s:upgrade()$/;"	f
+s:upgrade_specs	vim/autoload/plug.vim	/^function! s:upgrade_specs()$/;"	f
+s:version_requirement	vim/autoload/plug.vim	/^function! s:version_requirement(val, min)$/;"	f
+s:vim8	vim/autoload/plug.vim	/^let s:vim8 = has('patch-8.0.0039') && exists('*job_start')$/;"	v
+s:warn	vim/autoload/plug.vim	/^function! s:warn(cmd, msg)$/;"	f
+s:warn	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:warn(message)$/;"	f
+s:wide	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^let s:wide = 120$/;"	v
+s:wildignores_options_path	vim/plugged/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:wildignores_options_path = ''$/;"	v
+s:windows_sink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:windows_sink(line)$/;"	f
+s:with_cd	vim/autoload/plug.vim	/^function! s:with_cd(cmd, dir, ...)$/;"	f
+s:wrap	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:wrap(name, opts, bang)$/;"	f
+s:wrap_cmds	vim/autoload/plug.vim	/^  function! s:wrap_cmds(cmds)$/;"	f
+s:write_triggered_update_tags	vim/plugged/vim-gutentags/autoload/gutentags.vim	/^function! s:write_triggered_update_tags(bufno) abort$/;"	f
+s:yank_to_register	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^function! s:yank_to_register(data)$/;"	f
+shellremote	bin/dotsync	/^shellremote()$/;"	f
+style bg	tmux.conf	/^set-option -g status-style bg=default,fg=white$/;"	k
+style bg	tmux.conf	/^set-window-option -g window-status-current-style bg=colour41,fg=black$/;"	k
+style bg	tmux.conf	/^set-window-option -g window-status-style bg=colour240,fg=white$/;"	k
+style fg	tmux.conf	/^set-option -g pane-active-border-style fg=colour237$/;"	k
+style fg	tmux.conf	/^set-option -g pane-border-style fg=colour237$/;"	k
+symlink	bin/dotsync	/^symlink()$/;"	f
+update	bin/dotsync	/^update()$/;"	f
+usage	bin/dotsync	/^usage()$/;"	f
+use_raw_list	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        if ["%FILE_LIST_CMD_IS_ABSOLUTE%"]==["1"] set use_raw_list=1$/;"	v
+use_raw_list	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        if ["%PROJECT_ROOT%"]==["."] set use_raw_list=1$/;"	v
+use_raw_list	vim/plugged/vim-gutentags/plat/win32/update_tags.cmd	/^        set use_raw_list=0$/;"	v
+validhost	bin/dotsync	/^validhost()$/;"	f
+validhosttype	bin/dotsync	/^validhosttype()$/;"	f
+wrapped.newsink	vim/plugged/fzf.vim/autoload/fzf/vim.vim	/^  function! wrapped.newsink(lines)$/;"	f
+~/.dotfiles/.gitignore	README.md	/^### ~\/.dotfiles\/.gitignore$/;"	S
+~/.dotsyncrc	README.md	/^### ~\/.dotsyncrc$/;"	S
+~/dotfiles/.rsyncignore	README.md	/^### ~\/dotfiles\/.rsyncignore$/;"	S
