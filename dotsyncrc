@@ -21,6 +21,9 @@ vimrc
 vim
 zshrc
 tmux.conf
+fzf.bash
+fzf.zsh
+bashrc
 #ack/ackrc
 #aptitude
 #bin:bin
