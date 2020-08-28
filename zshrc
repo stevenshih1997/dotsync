@@ -1,4 +1,5 @@
 alias dev="mosh stev@165.232.51.207"
+alias dotsync="~/.dotfiles/dotsync/bin/dotsync"
 alias ..="cd .."
 alias ...="cd ../.."
 # alias ctags if installed using homebrew on macos
