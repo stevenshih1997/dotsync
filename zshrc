@@ -1,4 +1,4 @@
-alias dev="mosh stev@165.232.51.207"
+alias dev="mosh dev-dsk-stevshih-2a-ce9e4650.us-west-2.amazon.com"
 alias dotsync="~/.dotfiles/dotsync/bin/dotsync"
 alias ..="cd .."
 alias ...="cd ../.."
@@ -59,3 +59,7 @@ export CLICOLOR=1
 ls --color=auto &> /dev/null && alias ls='ls --color=auto'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+if [ -f ~/.bash_profile ]; then
+    . ~/.bash_profile;
+fi
